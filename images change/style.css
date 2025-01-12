@@ -1,0 +1,44 @@
+
+/* Universal selector to reset default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 500px;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.container > img{
+    border-bottom: 1px solid silver;
+    padding-bottom: 1rem;
+}
+.images{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.images img{
+    width: 80px;
+    cursor: pointer;
+}
