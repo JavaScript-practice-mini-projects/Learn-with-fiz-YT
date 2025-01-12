@@ -1,0 +1,48 @@
+
+/* Universal selector to reset default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 200px;
+    margin: 0 2rem;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    width: 100px;
+    padding: .2rem .8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons :first-child{
+    background-color: red;
+    color: white;
+}
+.buttons :last-child{
+    background-color: green;
+    color: white;
+}
