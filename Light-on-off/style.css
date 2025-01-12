@@ -1,0 +1,52 @@
+
+/* Universal selector to reset default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 216, 216);
+}
+.container{
+    width: 200px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    background-color: #fefefe;
+    text-align: center;
+    padding: 1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.buttons * {
+    width: 50px;
+    margin-top: 1rem;
+    padding: .2rem .6rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.buttons :first-child{
+    background-color: green;
+    color: white;
+}
+.buttons :last-child{
+   
+    background-color: red;
+    color: white;
+}
